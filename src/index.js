@@ -24,16 +24,38 @@ const config = {
   annotation: {
     adapter: (canvasId) =>
       new LocalStorageAdapter(`localStorage://?canvasId${canvasId}`),
-    exportLocalStorageAnnotations: false,
+    exportLocalStorageAnnotations: true, // display annotation JSON export button
   },
   window: {
     defaultSideBarPanel: "annotations",
     sideBarOpenByDefault: true,
   },
+  catalog: [
+    {
+      manifestId:
+        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_01/manifest.json",
+    },
+    {
+      manifestId:
+        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_02/manifest.json",
+    },
+    {
+      manifestId:
+        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_03/manifest.json",
+    },
+    {
+      manifestId:
+        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_04/manifest.json",
+    },
+    {
+      manifestId:
+        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_05/manifest.json",
+    },
+  ],
   windows: [
     {
       loadedManifest:
-        "https://iiif.harvardartmuseums.org/manifests/object/299843",
+        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_01/manifest.json",
     },
   ],
 };
