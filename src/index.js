@@ -33,29 +33,29 @@ const config = {
   catalog: [
     {
       manifestId:
-        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_01/manifest.json",
+        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_01/manifest.json",
     },
     {
       manifestId:
-        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_02/manifest.json",
+        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_02/manifest.json",
     },
     {
       manifestId:
-        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_03/manifest.json",
+        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_03/manifest.json",
     },
     {
       manifestId:
-        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_04/manifest.json",
+        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_04/manifest.json",
     },
     {
       manifestId:
-        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_05/manifest.json",
+        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_05/manifest.json",
     },
   ],
   windows: [
     {
       loadedManifest:
-        "http://localhost:4000/wax/img/derivatives/iiif/DC_WN_01/manifest.json",
+        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_01/manifest.json",
     },
   ],
 };
