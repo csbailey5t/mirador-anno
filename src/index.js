@@ -33,29 +33,13 @@ const config = {
   catalog: [
     {
       manifestId:
-        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_01/manifest.json",
-    },
-    {
-      manifestId:
-        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_02/manifest.json",
-    },
-    {
-      manifestId:
-        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_03/manifest.json",
-    },
-    {
-      manifestId:
-        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_04/manifest.json",
-    },
-    {
-      manifestId:
-        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_05/manifest.json",
+        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/dc/manifest.json"
     },
   ],
   windows: [
     {
       loadedManifest:
-        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/DC_WN_01/manifest.json",
+        "https://sad-leakey-4368a8.netlify.app/img/derivatives/iiif/dc/manifest.json"
     },
   ],
 };
